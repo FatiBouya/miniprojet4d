@@ -1,0 +1,438 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"label_ID1": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID1": {
+					"type": "input",
+					"dataSource": "[Task:3]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"dataSourceTypeHint": "integer",
+					"enterable": false,
+					"focusable": false,
+					"stroke": "#808080"
+				},
+				"label_taskName1": {
+					"type": "text",
+					"text": "taskName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_taskName1": {
+					"type": "input",
+					"dataSource": "[Task:3]taskName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_startingDate1": {
+					"type": "text",
+					"text": "startingDate:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_stastingDate1": {
+					"type": "input",
+					"dataSource": "[Task:3]startingDate:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"method": "ObjectMethods/field_stastingDate1.4dm"
+				},
+				"label_endingDate1": {
+					"type": "text",
+					"text": "endingDate:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_endingDate1": {
+					"type": "input",
+					"dataSource": "[Task:3]endingDate:4",
+					"top": 121,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"method": "ObjectMethods/field_endingDate1.4dm"
+				},
+				"label_formation_name1": {
+					"type": "text",
+					"text": "formation Name:",
+					"top": 213,
+					"left": 10,
+					"width": 100,
+					"height": 15
+				},
+				"field_id_formation1": {
+					"type": "input",
+					"dataSource": "[Task:3]id_formation:5",
+					"top": 158,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "#b1c4dd"
+				},
+				"label_done1": {
+					"type": "text",
+					"text": "done:",
+					"top": 253,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_done1": {
+					"type": "input",
+					"dataSource": "[Task:3]done:6",
+					"top": 253,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_starting1": {
+					"type": "text",
+					"text": "starting:",
+					"top": 303,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_starting1": {
+					"type": "input",
+					"dataSource": "[Task:3]starting:7",
+					"top": 297,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_not_starting1": {
+					"type": "text",
+					"text": "not_starting:",
+					"top": 334,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_not_starting1": {
+					"type": "input",
+					"dataSource": "[Task:3]not_starting:8",
+					"top": 334,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"Formation Name1": {
+					"type": "dropdown",
+					"left": 116,
+					"top": 207,
+					"width": 263,
+					"height": 26,
+					"events": [
+						"onDataChange"
+					],
+					"dataSourceTypeHint": "arrayText",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/FormationName"
+					},
+					"dataSource": "formationName"
+				},
+				"Onglet": {
+					"type": "tab",
+					"text": "Tab control",
+					"top": 403,
+					"left": 33,
+					"width": 502,
+					"height": 210,
+					"labels": [
+						"Formation"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
+				}
+			}
+		},
+		{
+			"objects": {
+				"label_ID": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[Task:3]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"dataSourceTypeHint": "integer",
+					"enterable": false,
+					"focusable": false,
+					"stroke": "#808080"
+				},
+				"label_taskName": {
+					"type": "text",
+					"text": "taskName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_taskName": {
+					"type": "input",
+					"dataSource": "[Task:3]taskName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_startingDate": {
+					"type": "text",
+					"text": "startingDate:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_stastingDate": {
+					"type": "input",
+					"dataSource": "[Task:3]startingDate:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"method": "ObjectMethods/field_stastingDate.4dm"
+				},
+				"label_endingDate": {
+					"type": "text",
+					"text": "endingDate:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_endingDate": {
+					"type": "input",
+					"dataSource": "[Task:3]endingDate:4",
+					"top": 121,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"method": "ObjectMethods/field_endingDate.4dm"
+				},
+				"label_formation_name": {
+					"type": "text",
+					"text": "formation Name:",
+					"top": 213,
+					"left": 10,
+					"width": 100,
+					"height": 15
+				},
+				"field_id_formation": {
+					"type": "input",
+					"dataSource": "[Task:3]id_formation:5",
+					"top": 158,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"enterable": true,
+					"focusable": false,
+					"fill": "automatic"
+				},
+				"label_done": {
+					"type": "text",
+					"text": "done:",
+					"top": 253,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"label_starting": {
+					"type": "text",
+					"text": "starting:",
+					"top": 303,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"label_not_starting": {
+					"type": "text",
+					"text": "not_starting:",
+					"top": 334,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"PopupDate": {
+					"type": "subform",
+					"top": 84,
+					"left": 390,
+					"width": 19,
+					"height": 16,
+					"dataSource": "vDate",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/PopupDate.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					],
+					"focusable": true
+				},
+				"PopupDate1": {
+					"type": "subform",
+					"top": 122,
+					"left": 390,
+					"width": 19,
+					"height": 16,
+					"dataSource": "vDate1",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/PopupDate1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					],
+					"focusable": true
+				},
+				"Formation": {
+					"type": "listbox",
+					"left": 32,
+					"top": 426,
+					"width": 503,
+					"height": 184,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"listboxType": "currentSelection",
+					"dataSource": "lb_formtion",
+					"table": 2,
+					"method": "ObjectMethods/Formation.4dm",
+					"columns": [
+						{
+							"header": {
+								"text": "Formation Name",
+								"name": "Entête1"
+							},
+							"name": "col_formationName",
+							"footer": {
+								"name": "Pied1"
+							},
+							"dataSource": "[Formation:2]formationName:2"
+						},
+						{
+							"header": {
+								"name": "Entête2",
+								"text": "Startiong Date"
+							},
+							"name": "col_startiongDate",
+							"footer": {
+								"name": "Pied2"
+							},
+							"dataSource": "[Formation:2]startingDate:3"
+						},
+						{
+							"header": {
+								"name": "Entête3",
+								"text": "endingDate"
+							},
+							"name": "col_endingDate",
+							"footer": {
+								"name": "Pied3"
+							},
+							"dataSource": "[Formation:2]endingDate:4"
+						}
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"text": "Add",
+					"top": 381,
+					"left": 426,
+					"width": 109,
+					"height": 35,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 113,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

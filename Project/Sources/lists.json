@@ -1,0 +1,47 @@
+{
+	"FormationName": {
+		"editable": true,
+		"items": [
+			{
+				"text": "",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "4D",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Angular",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Java",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "JS",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "React",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "SpringBoot",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Sql",
+				"ref": 8,
+				"editable": true
+			}
+		]
+	}
+}

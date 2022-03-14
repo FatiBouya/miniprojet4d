@@ -1,0 +1,150 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 30,
+	"markerBody": 60,
+	"events": [
+		"onLoad"
+	],
+	"destination": "listPrinter",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"text": "",
+					"top": 115,
+					"left": 52,
+					"width": 12,
+					"height": 15
+				},
+				"background": {
+					"type": "rectangle",
+					"fill": "automatic",
+					"stroke": "transparent",
+					"top": 30,
+					"height": 30,
+					"left": 0,
+					"right": 1292
+				},
+				"label_ID": {
+					"type": "text",
+					"text": "ID",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[User:1]ID:1",
+					"top": 37,
+					"left": 10,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_1": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 265
+				},
+				"label_firstName": {
+					"type": "text",
+					"text": "firstName",
+					"top": 10,
+					"left": 270,
+					"width": 100,
+					"height": 17
+				},
+				"field_firstName": {
+					"type": "input",
+					"dataSource": "[User:1]firstName:2",
+					"top": 37,
+					"left": 270,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_2": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 525
+				},
+				"label_lastName": {
+					"type": "text",
+					"text": "lastName",
+					"top": 10,
+					"left": 530,
+					"width": 100,
+					"height": 17
+				},
+				"field_lastName": {
+					"type": "input",
+					"dataSource": "[User:1]lastName:3",
+					"top": 37,
+					"left": 530,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_3": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 785
+				},
+				"label_Id_task": {
+					"type": "text",
+					"text": "Id_task",
+					"top": 10,
+					"left": 790,
+					"width": 100,
+					"height": 17
+				},
+				"field_Id_task": {
+					"type": "input",
+					"dataSource": "[User:1]Id_task:4",
+					"top": 37,
+					"left": 790,
+					"width": 197,
+					"height": 16,
+					"borderStyle": "none"
+				},
+				"field_Id_task1": {
+					"type": "input",
+					"dataSource": "[Tsk]taskName",
+					"top": 37,
+					"left": 1069,
+					"width": 214,
+					"height": 16,
+					"borderStyle": "none"
+				},
+				"Texte1": {
+					"type": "text",
+					"text": "TaskNae",
+					"top": 10,
+					"left": 1083,
+					"width": 175,
+					"height": 15
+				}
+			}
+		}
+	],
+	"geometryStamp": 13
+}

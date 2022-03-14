@@ -1,0 +1,817 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"label_ID2": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID2": {
+					"type": "input",
+					"dataSource": "[User:1]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_firstName2": {
+					"type": "text",
+					"text": "firstName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_firstName2": {
+					"type": "input",
+					"dataSource": "[User:1]firstName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_lastName2": {
+					"type": "text",
+					"text": "lastName:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_lastName2": {
+					"type": "input",
+					"dataSource": "[User:1]lastName:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Id_task2": {
+					"type": "text",
+					"text": "Id_task:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"Onglet": {
+					"type": "tab",
+					"text": "Tab control",
+					"top": 182,
+					"left": 25,
+					"width": 521,
+					"height": 177,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"labels": [
+						"Comments",
+						"Tasks",
+						"Formation"
+					],
+					"action": "gotoPage"
+				}
+			}
+		},
+		{
+			"objects": {
+				"label_ID": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[User:1]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_firstName": {
+					"type": "text",
+					"text": "firstName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_firstName": {
+					"type": "input",
+					"dataSource": "[User:1]firstName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_lastName": {
+					"type": "text",
+					"text": "lastName:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_lastName": {
+					"type": "input",
+					"dataSource": "[User:1]lastName:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Id_task": {
+					"type": "text",
+					"text": "Id_task:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Id_task": {
+					"type": "input",
+					"dataSource": "[User:1]Id_task:4",
+					"top": 121,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_ID3": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID3": {
+					"type": "input",
+					"dataSource": "[User:1]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_firstName3": {
+					"type": "text",
+					"text": "firstName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_firstName3": {
+					"type": "input",
+					"dataSource": "[User:1]firstName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_lastName3": {
+					"type": "text",
+					"text": "lastName:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_lastName3": {
+					"type": "input",
+					"dataSource": "[User:1]lastName:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Id_task3": {
+					"type": "text",
+					"text": "Id_task:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Id_task3": {
+					"type": "input",
+					"dataSource": "[User:1]Id_task:4",
+					"top": 121,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_ID4": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID4": {
+					"type": "input",
+					"dataSource": "[User:1]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_firstName4": {
+					"type": "text",
+					"text": "firstName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_firstName4": {
+					"type": "input",
+					"dataSource": "[User:1]firstName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_lastName4": {
+					"type": "text",
+					"text": "lastName:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_lastName4": {
+					"type": "input",
+					"dataSource": "[User:1]lastName:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Id_task4": {
+					"type": "text",
+					"text": "Id_task:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Id_task4": {
+					"type": "input",
+					"dataSource": "[User:1]Id_task:4",
+					"top": 121,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_ID5": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID5": {
+					"type": "input",
+					"dataSource": "[User:1]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_firstName5": {
+					"type": "text",
+					"text": "firstName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_firstName5": {
+					"type": "input",
+					"dataSource": "[User:1]firstName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_lastName5": {
+					"type": "text",
+					"text": "lastName:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_lastName5": {
+					"type": "input",
+					"dataSource": "[User:1]lastName:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Id_task5": {
+					"type": "text",
+					"text": "Id_task:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Id_task5": {
+					"type": "input",
+					"dataSource": "[User:1]Id_task:4",
+					"top": 121,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_ID6": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID6": {
+					"type": "input",
+					"dataSource": "[User:1]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_firstName6": {
+					"type": "text",
+					"text": "firstName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_firstName6": {
+					"type": "input",
+					"dataSource": "[User:1]firstName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_lastName6": {
+					"type": "text",
+					"text": "lastName:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_lastName6": {
+					"type": "input",
+					"dataSource": "[User:1]lastName:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Id_task6": {
+					"type": "text",
+					"text": "Id_task:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Id_task6": {
+					"type": "input",
+					"dataSource": "[User:1]Id_task:4",
+					"top": 121,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_ID7": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID7": {
+					"type": "input",
+					"dataSource": "[User:1]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_firstName7": {
+					"type": "text",
+					"text": "firstName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_firstName7": {
+					"type": "input",
+					"dataSource": "[User:1]firstName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_lastName7": {
+					"type": "text",
+					"text": "lastName:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_lastName7": {
+					"type": "input",
+					"dataSource": "[User:1]lastName:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Id_task7": {
+					"type": "text",
+					"text": "Id_task:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Id_task7": {
+					"type": "input",
+					"dataSource": "[User:1]Id_task:4",
+					"top": 121,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_ID8": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID8": {
+					"type": "input",
+					"dataSource": "[User:1]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"dataSourceTypeHint": "integer",
+					"fill": "automatic",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"focusable": false,
+					"stroke": "#808080"
+				},
+				"label_firstName8": {
+					"type": "text",
+					"text": "firstName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_firstName8": {
+					"type": "input",
+					"dataSource": "[User:1]firstName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_lastName8": {
+					"type": "text",
+					"text": "lastName:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_lastName8": {
+					"type": "input",
+					"dataSource": "[User:1]lastName:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Id_task8": {
+					"type": "text",
+					"text": "Id_task:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Id_task8": {
+					"type": "input",
+					"dataSource": "[User:1]Id_task:4",
+					"top": 121,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"field_lastName9": {
+					"type": "input",
+					"dataSource": "comments :",
+					"top": 205,
+					"left": 25,
+					"width": 512,
+					"height": 144,
+					"sizingX": "grow",
+					"sizingY": "grow"
+				}
+			}
+		},
+		{
+			"objects": {
+				"label_ID1": {
+					"type": "text",
+					"text": "ID:",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID1": {
+					"type": "input",
+					"dataSource": "[User:1]ID:1",
+					"top": 10,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_firstName1": {
+					"type": "text",
+					"text": "firstName:",
+					"top": 47,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_firstName1": {
+					"type": "input",
+					"dataSource": "[User:1]firstName:2",
+					"top": 47,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_lastName1": {
+					"type": "text",
+					"text": "lastName:",
+					"top": 84,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_lastName1": {
+					"type": "input",
+					"dataSource": "[User:1]lastName:3",
+					"top": 84,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Id_task1": {
+					"type": "text",
+					"text": "Id_task:",
+					"top": 121,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Id_task1": {
+					"type": "input",
+					"dataSource": "[User:1]Id_task:4",
+					"top": 121,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"ib_tasks": {
+					"type": "listbox",
+					"left": 31,
+					"top": 198,
+					"width": 521,
+					"height": 161,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"table": "Task",
+					"dataSource": "ib_tasks",
+					"method": "ObjectMethods/ib_tasks.4dm",
+					"columns": [
+						{
+							"header": {
+								"text": "Task Name",
+								"name": "Ent_taskName"
+							},
+							"name": "col_tasknName",
+							"footer": {
+								"name": "Pied1"
+							},
+							"dataSource": "[Task:3]taskName:2"
+						},
+						{
+							"header": {
+								"name": "Entête2",
+								"text": "StartingDate"
+							},
+							"name": "col_startingDate",
+							"footer": {
+								"name": "Pied2"
+							},
+							"dataSource": "[Task:3]startingDate:3"
+						},
+						{
+							"header": {
+								"name": "Entête3",
+								"text": "Ending Date"
+							},
+							"name": "col_endingDtae",
+							"footer": {
+								"name": "Pied3"
+							},
+							"dataSource": "[Task:3]endingDate:4"
+						}
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"text": "Add",
+					"top": 150,
+					"left": 469,
+					"width": 77,
+					"height": 38,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton.4dm"
+				},
+				"Bouton1": {
+					"type": "button",
+					"text": "Remove",
+					"top": 152,
+					"left": 358,
+					"width": 83,
+					"height": 36,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"left": 25,
+					"top": 200,
+					"width": 521,
+					"height": 159,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"listboxType": "currentSelection",
+					"table": 2,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "ib_formation",
+					"method": "ObjectMethods/List Box.4dm",
+					"columns": [
+						{
+							"header": {
+								"text": " Formation Name",
+								"name": "Entête5"
+							},
+							"name": "col_formationName",
+							"footer": {
+								"name": "Pied7"
+							},
+							"dataSource": "[Formation:2]formationName:2"
+						},
+						{
+							"header": {
+								"name": "Entête6",
+								"text": "Starting Date"
+							},
+							"name": "col_formaStatingDate",
+							"footer": {
+								"name": "Pied8"
+							},
+							"dataSource": "[Formation:2]startingDate:3"
+						},
+						{
+							"header": {
+								"name": "Entête7",
+								"text": "Ending Date"
+							},
+							"name": "col_endingDae",
+							"footer": {
+								"name": "Pied9"
+							},
+							"dataSource": "[Formation:2]endingDate:4"
+						}
+					]
+				},
+				"Bouton2": {
+					"type": "button",
+					"text": "Add",
+					"top": 165,
+					"left": 456,
+					"width": 90,
+					"height": 26,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton2.4dm"
+				},
+				"Bouton3": {
+					"type": "button",
+					"text": "Remove",
+					"top": 165,
+					"left": 364,
+					"width": 79,
+					"height": 26,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 246,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

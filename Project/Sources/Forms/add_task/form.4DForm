@@ -1,0 +1,118 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"text": "Nom task :",
+					"top": 52,
+					"left": 15,
+					"width": 94,
+					"height": 30
+				},
+				"Texte1": {
+					"type": "text",
+					"text": " Fomation Type :",
+					"top": 90,
+					"left": 4,
+					"width": 118,
+					"height": 15
+				},
+				"Formation_Pup": {
+					"type": "dropdown",
+					"left": 183,
+					"top": 85,
+					"width": 228,
+					"height": 25,
+					"events": [
+						"onLoad",
+						"onDataChange"
+					],
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/FormationName"
+					},
+					"dataSource": "at_formation",
+					"method": "ObjectMethods/Formation_Pup.4dm"
+				},
+				"Bouton": {
+					"type": "button",
+					"text": "Add",
+					"top": 136,
+					"left": 250,
+					"width": 102,
+					"height": 33,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton.4dm"
+				},
+				"Bouton1": {
+					"type": "button",
+					"text": "Cancel",
+					"top": 136,
+					"left": 131,
+					"width": 80,
+					"height": 33,
+					"events": [
+						"onClick"
+					]
+				},
+				"Task_Pup": {
+					"type": "dropdown",
+					"left": 185,
+					"top": 48,
+					"width": 226,
+					"height": 24,
+					"events": [
+						"onLoad",
+						"onDataChange"
+					],
+					"dataSource": "at_task",
+					"method": "ObjectMethods/Task_Pup.4dm"
+				}
+			}
+		}
+	],
+	"geometryStamp": 45,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

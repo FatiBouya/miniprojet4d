@@ -1,0 +1,120 @@
+{
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483641,
+			"codeDescriptor": {
+				"type": 2,
+				"table": 1,
+				"formName": "input",
+				"objectName": "Bouton",
+				"methodPath": "/SOURCES/TableForms/1/input/ObjectMethods/Bouton.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 540,
+			"table": 1,
+			"formName": "input"
+		},
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483642,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "add_task",
+				"objectName": "Formation_Pup",
+				"methodPath": "/SOURCES/Forms/add_task/ObjectMethods/Formation_Pup.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 539,
+			"formName": "add_task"
+		},
+		{
+			"type": "method",
+			"id": 2147483637,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "add_task",
+				"objectName": "Bouton",
+				"methodPath": "/SOURCES/Forms/add_task/ObjectMethods/Bouton.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483643,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "add_task",
+				"objectName": "Task_Pup",
+				"methodPath": "/SOURCES/Forms/add_task/ObjectMethods/Task_Pup.4dm"
+			}
+		},
+		{
+			"type": "structure"
+		},
+		{
+			"type": "form",
+			"id": 544,
+			"table": 3,
+			"formName": "input"
+		},
+		{
+			"type": "form",
+			"id": 542,
+			"table": 2,
+			"formName": "input"
+		},
+		{
+			"type": "method",
+			"id": 2147483644,
+			"codeDescriptor": {
+				"type": 2,
+				"table": 1,
+				"formName": "input",
+				"objectName": "Bouton2",
+				"methodPath": "/SOURCES/TableForms/1/input/ObjectMethods/Bouton2.4dm"
+			}
+		},
+		{
+			"type": "toolbox"
+		},
+		{
+			"type": "method",
+			"id": 2147483645,
+			"codeDescriptor": {
+				"type": 2,
+				"table": 3,
+				"formName": "input",
+				"objectName": "field_stastingDate",
+				"methodPath": "/SOURCES/TableForms/3/input/ObjectMethods/field_stastingDate.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483646,
+			"codeDescriptor": {
+				"type": 2,
+				"table": 3,
+				"formName": "input",
+				"objectName": "field_endingDate",
+				"methodPath": "/SOURCES/TableForms/3/input/ObjectMethods/field_endingDate.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483647,
+			"codeDescriptor": {
+				"type": 3,
+				"table": 3,
+				"formName": "input",
+				"methodPath": "/SOURCES/TableForms/3/input/method.4dm"
+			}
+		}
+	]
+}
